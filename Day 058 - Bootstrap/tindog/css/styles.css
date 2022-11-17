@@ -1,0 +1,148 @@
+body {
+    font-family:"Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+#top {
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    line-height:1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+.navbar-brand {
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    font-weight:bold
+}
+
+#navbarSupportedContent {
+    font-family: "Poppins";
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight:bold
+}
+
+.download-button {
+    margin: 5% 3% 5% 0
+}
+
+.main-image {
+    width: 75%;
+    transform: rotate(15deg);
+}
+
+#title {
+    position: absolute;                 
+}
+
+#features {
+    padding: 0% 15%;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 630px;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 10%;
+}
+
+.fi {
+    color: #ef8172;
+    padding: 0% 0%  10% 0%;
+}
+
+.fi:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+.testimonial {
+    padding: 5% 20% 5% 20%;
+}
+
+.car-head {
+    padding: 0 0 5% 0;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 80px 20px 80px 20px;
+}
+
+.card {
+    text-align: center;
+}
+
+.pricing-title {
+    text-align: center;
+    margin: 5% 20% 5% 20%;
+}
+
+#pricing {
+    padding: 100px 0px 100px 0px;
+}
+
+#cta {
+    text-align: center;
+    margin: 50px 0px 50px 0px;  
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.cta-text {
+    padding: 100px 0px 0px 0px;
+}
+
+#footer {
+    text-align: center;
+    padding: 7%;
+}
+
+@media (max-width: 1028px) {
+    .main-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+#title {
+    text-align: center;
+}
+}
